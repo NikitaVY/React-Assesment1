@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import { First, Second, Third, Fourth, Student} from './Hello';
+import { First1, Second2, Third3, Fourth4, Btns, Student1} from './Hello';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Assignment 8 <br></br>
+      Hello World!!
+      <First/>
+      <Second/>
+      <Third/>
+      <Fourth/>
+      <First1/>
+      <Second2/>
+      <Third3/>
+      <Fourth4/>
+      <Student name="Nikita" address="Dharashiv" score="97"/>
+      <Student1/>
+      <Btns/>
     </div>
   );
 }
